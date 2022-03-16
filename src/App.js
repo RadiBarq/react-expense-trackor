@@ -1,5 +1,5 @@
 
-import Expenses from './components/Expenses';
+import Expenses from './components/Expenses/Expenses';
 
 function App() {
   const expenses = [
@@ -8,6 +8,7 @@ function App() {
     { title: 'Toilet Paper', amount: 294.67, date: new Date(2021, 2, 28) },
     { title: 'New Desk Wooden', amount: 294.67, date: new Date(2021, 2, 28) },
   ];
+
   return (
     <div>
       <h2>Let's get started!</h2>
